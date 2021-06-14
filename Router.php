@@ -128,7 +128,7 @@ class Router
 
 
             // We can get the new instance of that callback controller and use it fo later.
-            Application::$app->controller = new $controller;
+            Application::$app->controller = $controller;
 
             // lets set the controller action for later use.
             // $callback[1] is a method name.
